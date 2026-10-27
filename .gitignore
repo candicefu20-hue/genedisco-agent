@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# API keys / secrets
+.env
+*.key
+
+# Local cache and logs (keep structure but ignore runtime data if desired)
+# Uncomment the next line if you do not want to commit cache files.
+# data/*.json
+
+# Outputs
+outputs/*.json
+logs/*.log
+
+# IDE
+.vscode/
+.idea/
